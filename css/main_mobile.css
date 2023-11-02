@@ -1,8 +1,12 @@
+/* @media {
+
+} */
+
 .mobile-container {
     max-width: 480px;
     margin: auto;
     background-color: #1e192c;
-    height: 500px;
+    /* height: 500px; */
     color: white;
     /* border-radius: 10px; */
 }
@@ -20,6 +24,9 @@
     text-decoration: none;
     font-size: 17px;
     display: block;
+}
+.topnav a img {
+    max-width: 15%;
 }
 .topnav a.icon {
     background: black;
